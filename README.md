@@ -1,4 +1,4 @@
-# edoFundStats
+# fund_stats
 Python program retrieving fund-statistics, store to local database and generate graphical report
 
 
@@ -8,12 +8,12 @@ Installing
 ```
 # sudo apt-get py-reportlab
 # sudo apt-get py-httplib2
-# git clone https://github.com/engdan77/edoFundStats.git
+# git clone https://github.com/engdan77/fund_stats.git
 
 ```
 
 ----------------------
-Update parameters in edoFundStats.py
+Update parameters in fund_stats.py
 ----------------------
 ```
 varMainLimit = "-20"
@@ -34,7 +34,7 @@ fromAddress = "xxx"
 Usage
 -------------------------
 ```
-$ python edoFundStats.py 
+$ python fund_stats.py 
 Creating DB
 Adding data - 2015-02-17, AlfredBerg Fastighetsfond, 235,99, 34466.34, 54.51
 Adding data - 2015-02-17, EastCapital Ryssland, 808,68, 452.86, -26.00
@@ -45,6 +45,6 @@ Adding data - 2015-02-17, 84694.89, 73.93
 -------------------------
 Pictures
 -------------------------
-![Pic0](https://github.com/engdan77/edoFundStats/blob/master/pics/pic0.png)
-![Pic3](https://github.com/engdan77/edoFundStats/blob/master/pics/pic3.png)
-![Pic4](https://github.com/engdan77/edoFundStats/blob/master/pics/pic4.png)
+![Pic0](https://github.com/engdan77/fund_stats/blob/master/pics/pic0.png)
+![Pic3](https://github.com/engdan77/fund_stats/blob/master/pics/pic3.png)
+![Pic4](https://github.com/engdan77/fund_stats/blob/master/pics/pic4.png)

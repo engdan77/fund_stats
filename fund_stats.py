@@ -12,7 +12,7 @@ import sqlite3
 import os.path
 
 global DBfile
-DBfile = "./edoFundStats.sqlite"
+DBfile = "./fund_stats.sqlite"
 global varMainLimit
 varMainLimit = "-20"
 
